@@ -13,7 +13,7 @@
                                 <div class="col-sm-10 col-md-6 col-lg-5 offset-md-6 text-center text-md-start ps-md-5 pb-md-5 pt-5 pt-md-0 mt-5 mt-md-0">
                                     <h1 class="text-color-light font-weight-extra-bold text-9 text-lg-10 line-height-1 pe-lg-5 mb-3 appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="500" data-appear-animation-duration="500ms" data-plugin-options="{'minWindowWidth': 0}">Welcome to iGuruWeb</h1>
                                     <p class="text-4 text-color-light font-weight-light opacity-7 mb-4" data-plugin-animated-letters data-plugin-options="{'startDelay': 600, 'minWindowWidth': 0, 'animationSpeed': 50}">A Leading iGaming Guru!</p>
-                                    <a href="#" class="btn btn-dark btn-modern font-weight-bold text-2 py-3 px-5 mt-2 mb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" data-plugin-options="{'minWindowWidth': 0}">READ MORE</a>
+                                    <a href="{{ route('games') }}" class="btn btn-dark btn-modern font-weight-bold text-2 py-3 px-5 mt-2 mb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" data-plugin-options="{'minWindowWidth': 0}">READ MORE</a>
                                 </div>
                             </div>
                         </div>
@@ -29,7 +29,7 @@
                                 <div class="col-sm-10 col-md-6 col-lg-5 offset-md-6 text-center text-md-start ps-md-5 pb-md-5 pt-5 pt-md-0 mt-5 mt-md-0">
                                     <h1 class="text-color-light font-weight-extra-bold text-9 text-lg-10 line-height-1 pe-lg-5 mb-3 appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="500" data-appear-animation-duration="500ms" data-plugin-options="{'minWindowWidth': 0}">We offer</h1>
                                     <p class="text-4 text-color-light font-weight-light opacity-7 mb-4" data-plugin-animated-letters data-plugin-options="{'startDelay': 600, 'minWindowWidth': 0, 'animationSpeed': 50}">Games Creation & Development | iGaming Consulting & Patnership</p>
-                                    <a href="#" class="btn btn-dark btn-modern font-weight-bold text-2 py-3 px-5 mt-2 mb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" data-plugin-options="{'minWindowWidth': 0}">READ MORE</a>
+                                    <a href="{{ route('games') }}" class="btn btn-dark btn-modern font-weight-bold text-2 py-3 px-5 mt-2 mb-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" data-plugin-options="{'minWindowWidth': 0}">READ MORE</a>
                                 </div>
                             </div>
                         </div>

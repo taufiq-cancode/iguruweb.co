@@ -15,3 +15,12 @@ section.section {
 .page-header.page-header-modern.page-header-md {
     margin-bottom: -30px;
 }
+
+@media screen and (max-width:798px) {
+    .mt-top-team {
+        margin-top: 0px;
+    } 
+    .isotope-item {
+        text-align: left;
+    }
+}
