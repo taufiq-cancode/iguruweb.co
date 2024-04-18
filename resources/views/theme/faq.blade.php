@@ -6,67 +6,43 @@
                 <div class="row">
                     <div class="toggle toggle-primary m-0" data-plugin-toggle="">
                         <section class="toggle">
-                            <a class="toggle-title">Curabitur eget leo at velit imperdiet vague iaculis vitaes?</a>
+                            <a class="toggle-title">What is iguruweb?</a>
                             <div class="toggle-content" style="display: none;">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus. Nullam tortor nunc, bibendum vitae semper a, volutpat eget massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla, orci sit amet posuere auctor, orci eros pellentesque odio, nec pellentesque erat ligula nec massa. Aenean consequat lorem ut felis ullamcorper posuere gravida tellus faucibus. Maecenas dolor elit, pulvinar eu vehicula eu, consequat et lacus. Duis et purus ipsum. In auctor mattis ipsum id molestie. Donec risus nulla, fringilla a rhoncus vitae, semper a massa. Vivamus ullamcorper, enim sit amet consequat laoreet, tortor tortor dictum urna, ut egestas urna ipsum nec libero. Nulla justo leo, molestie vel tempor nec, egestas at massa. Aenean pulvinar, felis porttitor iaculis pulvinar, odio orci sodales odio, ac pulvinar felis quam sit.</p>
+                                <p>iGuruweb is a new generational focused iGaming solutions company which creates adaptive, unique and customer centric products for its clients across the world. Our team is led by visionaries and experts with a lot of experience offering products to suit every business.
+                                </p>
                             </div>
                         </section>
 
                         <section class="toggle">
-                            <a class="toggle-title">Curabitur eget leo at velit imperdiet viaculis vitaes?</a>
-                            <div class="toggle-content" style="display: none;">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus. Nullam tortor nunc, bibendum vitae semper a, volutpat eget massa.</p>
-                            </div>
-                        </section>
-
-                        <section class="toggle">
-                            <a class="toggle-title">Curabitur eget leo at velit imperdiet varius iaculis vitaes?</a>
+                            <a class="toggle-title">Can your products be trusted?</a>
                             <div class="toggle-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus. Nullam tortor nunc, bibendum vitae semper a, volutpat eget massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla, orci sit amet posuere auctor, orci eros pellentesque odio, nec pellentesque erat ligula nec massa. Aenean consequat lorem ut felis ullamcorper posuere gravida tellus faucibus. Maecenas dolor elit, pulvinar eu vehicula eu, consequat et lacus. Duis et purus ipsum. In auctor mattis ipsum id molestie. Donec risus nulla, fringilla a rhoncus vitae, semper a massa. Vivamus ullamcorper, enim sit amet consequat laoreet, tortor tortor dictum urna, ut egestas urna ipsum nec libero. Nulla justo leo, molestie vel tempor nec, egestas at massa. Aenean pulvinar, felis porttitor iaculis pulvinar, odio orci sodales odio, ac pulvinar felis quam sit.</p>
+                                <p>Definitely, our core value is Integrity. All our products are built on state of the art technology, the best quality and have been verified by independent verifiers. Our products are also hosted on premium cloud computing such as Azure and AWS which ensures a 99% efficiency of game play.</p>
                             </div>
                         </section>
 
                         <section class="toggle">
-                            <a class="toggle-title">Curabitur eget leo at velit imperdiet vague iaculis vitaes?</a>
+                            <a class="toggle-title">How are your products integrated?</a>
                             <div class="toggle-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus. Nullam tortor nunc, bibendum vitae semper a, volutpat eget massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla, orci sit amet posuere auctor, orci eros pellentesque odio, nec pellentesque erat ligula nec massa. Aenean consequat lorem ut felis ullamcorper posuere gravida tellus faucibus. Maecenas dolor elit, pulvinar eu vehicula eu, consequat et lacus. Duis et purus ipsum. In auctor mattis ipsum id molestie. Donec risus nulla, fringilla a rhoncus vitae, semper a massa. Vivamus ullamcorper, enim sit amet consequat laoreet, tortor tortor dictum urna, ut egestas urna ipsum nec libero. Nulla justo leo, molestie vel tempor nec, egestas at massa. Aenean pulvinar, felis porttitor iaculis pulvinar, odio orci sodales odio, ac pulvinar felis quam sit.</p>
+                                <p>We are very dynamic in nature and are able to integrate based on your service providers requirements. We have an exceptional technology team.
+                                </p>
                             </div>
                         </section>
 
                         <section class="toggle">
-                            <a class="toggle-title">Curabitur eget leo at velit imperdiet viaculis vitaes?</a>
+                            <a class="toggle-title">Are your services customisable?</a>
                             <div class="toggle-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus. Nullam tortor nunc, bibendum vitae semper a, volutpat eget massa.</p>
+                                <p>Yes, all services can be customised to fit your platform needs. Additionally, our services can be tailored for all types of businesses – from small retail outlets to big online operations.
+                                </p>
                             </div>
                         </section>
 
                         <section class="toggle">
-                            <a class="toggle-title">Curabitur eget leo at velit imperdiet varius iaculis vitaes?</a>
+                            <a class="toggle-title">Can we get a free trial?</a>
                             <div class="toggle-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus. Nullam tortor nunc, bibendum vitae semper a, volutpat eget massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla, orci sit amet posuere auctor, orci eros pellentesque odio, nec pellentesque erat ligula nec massa. Aenean consequat lorem ut felis ullamcorper posuere gravida tellus faucibus. Maecenas dolor elit, pulvinar eu vehicula eu, consequat et lacus. Duis et purus ipsum. In auctor mattis ipsum id molestie. Donec risus nulla, fringilla a rhoncus vitae, semper a massa. Vivamus ullamcorper, enim sit amet consequat laoreet, tortor tortor dictum urna, ut egestas urna ipsum nec libero. Nulla justo leo, molestie vel tempor nec, egestas at massa. Aenean pulvinar, felis porttitor iaculis pulvinar, odio orci sodales odio, ac pulvinar felis quam sit.</p>
+                                <p>We have demos available for some of our games, please feel free to check them out.
+                                </p>
                             </div>
-                        </section>
-
-                        <section class="toggle">
-                            <a class="toggle-title">Curabitur eget leo at velit imperdiet vague iaculis vitaes?</a>
-                            <div class="toggle-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus. Nullam tortor nunc, bibendum vitae semper a, volutpat eget massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla, orci sit amet posuere auctor, orci eros pellentesque odio, nec pellentesque erat ligula nec massa. Aenean consequat lorem ut felis ullamcorper posuere gravida tellus faucibus. Maecenas dolor elit, pulvinar eu vehicula eu, consequat et lacus. Duis et purus ipsum. In auctor mattis ipsum id molestie. Donec risus nulla, fringilla a rhoncus vitae, semper a massa. Vivamus ullamcorper, enim sit amet consequat laoreet, tortor tortor dictum urna, ut egestas urna ipsum nec libero. Nulla justo leo, molestie vel tempor nec, egestas at massa. Aenean pulvinar, felis porttitor iaculis pulvinar, odio orci sodales odio, ac pulvinar felis quam sit.</p>
-                            </div>
-                        </section>
-
-                        <section class="toggle">
-                            <a class="toggle-title">Curabitur eget leo at velit imperdiet viaculis vitaes?</a>
-                            <div class="toggle-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus. Nullam tortor nunc, bibendum vitae semper a, volutpat eget massa.</p>
-                            </div>
-                        </section>
-
-                        <section class="toggle">
-                            <a class="toggle-title">Curabitur eget leo at velit imperdiet varius iaculis vitaes?</a>
-                            <div class="toggle-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus. Nullam tortor nunc, bibendum vitae semper a, volutpat eget massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla, orci sit amet posuere auctor, orci eros pellentesque odio, nec pellentesque erat ligula nec massa. Aenean consequat lorem ut felis ullamcorper posuere gravida tellus faucibus. Maecenas dolor elit, pulvinar eu vehicula eu, consequat et lacus. Duis et purus ipsum. In auctor mattis ipsum id molestie. Donec risus nulla, fringilla a rhoncus vitae, semper a massa. Vivamus ullamcorper, enim sit amet consequat laoreet, tortor tortor dictum urna, ut egestas urna ipsum nec libero. Nulla justo leo, molestie vel tempor nec, egestas at massa. Aenean pulvinar, felis porttitor iaculis pulvinar, odio orci sodales odio, ac pulvinar felis quam sit.</p>
-                            </div>
-                        </section>
+                        </section>     
                     </div>
                 </div>
             </div>

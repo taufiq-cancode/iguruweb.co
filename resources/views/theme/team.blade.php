@@ -44,7 +44,7 @@
                             <img src="img/team/iguruweb-team-1.jpg" class="img-fluid" alt="">
                             <span class="thumb-info-title">
                                 <span class="thumb-info-inner">Oyekunle Oluwatimisire Edith</span>
-                                {{-- <span class="thumb-info-type">CEO</span> --}}
+                                <span class="thumb-info-type">Managing Director</span>
                             </span>
                         </a>
                     </span>

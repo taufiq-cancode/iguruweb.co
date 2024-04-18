@@ -21,8 +21,6 @@
 
         @include('theme.team')
 
-        @include('theme.faq')
-
         @include('theme.contact')
     </div>
 
