@@ -17,7 +17,7 @@ class ContactController extends Controller
             'message' => 'required',
         ]);
 
-        Mail::to('taofeekadekunle2@gmail.com')->send(new ContactMail($validatedData));
+        Mail::to('info@iguruweb.co')->send(new ContactMail($validatedData));
 
         return redirect()->back()->with('success', 'Your message has been sent successfully!');
     }
