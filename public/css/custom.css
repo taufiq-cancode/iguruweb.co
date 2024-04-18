@@ -1,0 +1,17 @@
+html #header.header-transparent {
+    min-height: 0 !important;
+    width: 100%;
+    position: fixed;
+}
+
+section.section {
+    border-top: 0 !important;
+}
+
+.mt-top-team {
+    margin-top: 85px;
+}
+
+.page-header.page-header-modern.page-header-md {
+    margin-bottom: -30px;
+}
