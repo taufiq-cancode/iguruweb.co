@@ -2,11 +2,11 @@
     <div class="container">
         <h2 class="text-10 font-weight-normal text-color-dark mb-4 line-height-4 text-left"><span class="text-color-primary font-weight-bold ">Our </span> Team</h2>
 
-        <div class="row team-list sort-destination" data-sort-id="team" data-filter="*" style="position: relative; height: 400px;">
+        <div class="row team-list sort-destination" data-sort-id="team" data-filter="*" style="position: relative; height: 440px;">
             <div class="col-12 col-sm-6 col-lg-4 isotope-item leadership" >
                 <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
                     <span class="thumb-info-wrapper">
-                        <a href="about-me.html">
+                        <a>
                             <img src="img/team/ceo-iguruweb.jpg" class="img-fluid" alt="">
                             <span class="thumb-info-title">
                                 <span class="thumb-info-inner">Joseph Oyekunle</span>
@@ -16,7 +16,6 @@
                     </span>
                     <span class="thumb-info-caption">
                         <span class="thumb-info-social-icons mb-4">
-                            {{-- <a target="_blank" href="http://www.facebook.com"><i class="fab fa-facebook-f"></i><span>Facebook</span></a> --}}
                             <a href="https://www.linkedin.com/in/joseph-vg-8200841a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a>
                         </span>
                     </span>
@@ -40,7 +39,7 @@
             <div class="col-12 col-sm-6 col-lg-4 isotope-item leadership" >
                 <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
                     <span class="thumb-info-wrapper">
-                        <a href="about-me.html">
+                        <a>
                             <img src="img/team/iguruweb-team-1.jpg" class="img-fluid" alt="">
                             <span class="thumb-info-title">
                                 <span class="thumb-info-inner">Oyekunle Oluwatimisire Edith</span>
@@ -50,8 +49,7 @@
                     </span>
                     <span class="thumb-info-caption">
                         <span class="thumb-info-social-icons mb-4">
-                            {{-- <a target="_blank" href="http://www.facebook.com"><i class="fab fa-facebook-f"></i><span>Facebook</span></a> --}}
-                            {{-- <a href="https://www.linkedin.com/in/joseph-vg-8200841a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a> --}}
+                            <a href="https://www.linkedin.com/in/edith-oyekunle-6a67b1175?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a>
                         </span>
                     </span>
                 </span>
