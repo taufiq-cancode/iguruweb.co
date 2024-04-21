@@ -24,7 +24,7 @@
             <div id="about" class="container py-3 my-5">
                 <div class="row justify-content-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">
                     <div class="col">
-                        <h2 class="text-10 font-weight-normal text-color-dark mb-4 line-height-4"><span class="text-color-primary font-weight-bold ">Why</span> iguruWeb?</h2>
+                        <h2 class="text-10 font-weight-normal text-color-dark mb-4 line-height-4"><span class="text-color-primary font-weight-bold ">Why</span> iGuruweb?</h2>
                         <p class="text-color-dark">At iGuruWeb,we are a technological based company which specializes in the creation,development & re-selling of localized gaming contents,software development,iGaming consultancy services,business partnership. </p>
             
                         <div class="row justify-content-center">

@@ -29,7 +29,7 @@
         <div class="container py-2">
             <div class="row py-4">
                 <div class="col mb-4 mb-lg-0">
-                    <p>© Copyright 2024. All Rights Reserved.</p>
+                    <p>@copyright 2024 by iGuruWeb Retail Solutions Limited. All Right Reserved.</p>
                 </div>
             </div>
         </div>

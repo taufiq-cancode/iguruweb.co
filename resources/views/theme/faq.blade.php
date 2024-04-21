@@ -6,7 +6,7 @@
                 <div class="row">
                     <div class="toggle toggle-primary m-0" data-plugin-toggle="">
                         <section class="toggle">
-                            <a class="toggle-title">What is iguruweb?</a>
+                            <a class="toggle-title">What is iGuruweb?</a>
                             <div class="toggle-content" style="display: none;">
                                 <p>iGuruweb is a new generational focused iGaming solutions company which creates adaptive, unique and customer centric products for its clients across the world. Our team is led by visionaries and experts with a lot of experience offering products to suit every business.
                                 </p>
