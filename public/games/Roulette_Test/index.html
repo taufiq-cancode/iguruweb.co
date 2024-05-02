@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Roulette</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css?v2">
+  </head>
+  <body>
+    <div id="unity-container" class="unity-desktop">
+      <canvas id="unity-canvas" width=1440 height=810 tabindex="-1"></canvas>
+	<div id="unity-loading-bar">
+		<div id="loader" style="background-image: url('TemplateData/bg.png');background-repeat: repeat;background-color: #23061d;linear-gradient(to right bottom, #1b0516 0%, #23061d 100%);">
+
+		    <div class="parent-img">
+  			  <img src="TemplateData/roulette.png" class="parent-img-responsive"/>
+			  <div class="spinner"/>
+		    </div>
+
+
+		</div>
+	</div>
+      <div id="unity-warning"> </div>
+      <div id="unity-footer">
+        <div id="unity-fullscreen-button"></div>
+      </div>
+    </div>
+	<script src="config.js"></script>
+	<script src="dist/kalamba-sdk.umd.js"></script>
+    <script>
+
+      var container = document.querySelector("#unity-container");
+      var canvas = document.querySelector("#unity-canvas");
+      var loadingBar = document.querySelector("#unity-loading-bar");
+      var fullscreenButton = document.querySelector("#unity-fullscreen-button");
+      var warningBanner = document.querySelector("#unity-warning");
+	  var myGameInstance = null;
+	  var sdk = new Kalamba.KalambaSdk({ messagePort: window.parent })
+	  var playResponse = null;
+	  var coinValue = 1;
+	  
+      function unityShowBanner(msg, type) {
+        function updateBannerVisibility() {
+          warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+        }
+        var div = document.createElement('div');
+        div.innerHTML = msg;
+        warningBanner.appendChild(div);
+        if (type == 'error') div.style = 'background: red; padding: 10px;';
+        else {
+          if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
+          setTimeout(function() {
+            warningBanner.removeChild(div);
+            updateBannerVisibility();
+          }, 5000);
+        }
+        updateBannerVisibility();
+      }
+	  
+	  function HomeFuncInx() {
+		sdk.send('close');
+	  }
+
+	  function HistoryFuncInx() {
+		sdk.send('history', { source: 'game' });
+	  }
+	  
+	  function SetSoundInx(isEnabled) {
+		sdk.send('settings', { sounds: isEnabled });
+	  }
+	  
+	  function SetMusicInx(isEnabled) {
+		sdk.send('settings', { music: isEnabled });
+	  }
+	  
+	  function BetLogInx(json) {
+		const obj = JSON.parse(json);
+		console.log(obj);
+		console.log("BET", {baseBet: obj.bet.baseBet, betMultiplier: obj.bet.betMultiplier});
+		sdk.send('bet', {base: obj.bet.baseBet, multiplier: obj.bet.betMultiplier});
+	  }
+	  
+	  function AnimationDoneInx(){
+		sdk.send('playCycleEnd', playResponse);
+	  }
+	  
+	  function BalanceLogInx(number){
+		console.log("BALANCE", { balance: number });
+		sdk.send('balance', { balance: number });
+	  }
+	  
+	  async function SDKInitInx() {
+		// Init
+		myGameInstance.SendMessage('RouletteGameManager', 'SDKInitialized', "");
+		
+		// Set language
+		console.log('languages',JSON.stringify(languages));
+		myGameInstance.SendMessage('RouletteGameManager', 'SetLocalizationFiles', JSON.stringify(languages));
+      }
+  
+	  async function SDKAuthInx() {
+	      // Authenticate player
+		  console.log("SDKAuthInx - start");
+		  myGameInstance.SendMessage('RouletteGameManager', 'SDKAuthenticated', "");
+	  }
+	  
+	  function sleep(ms) {
+		  return new Promise(resolve => setTimeout(resolve, ms));
+      }
+		
+	  async function SDKOpenGameInx() {
+		  console.log("SDKOpenGameInx - start");
+		  const openGameResponse = await sdk.openGame({ gameName: "fireboltroulette" })
+		  console.log('opened game', openGameResponse)
+		  console.log('SDKOpenGameInx - initialized', sdk.config)
+		  coinValue = sdk.config.api.coinValueInCents;
+		  myGameInstance.SendMessage('RouletteGameManager', 'SetCurrencyCode', sdk.config.api.currency);
+		  myGameInstance.SendMessage('RouletteGameManager', 'SetCurrencyValue', sdk.config.api.coinValueInCents);
+		  myGameInstance.SendMessage('RouletteGameManager', 'SetLanguage', sdk.config.ui.language);
+		  myGameInstance.SendMessage('RouletteGameManager', 'SDKGameOpened', JSON.stringify(openGameResponse));
+		  sdk.send('playReady', { ready: true });
+		  sdk.send('settings', { fastPlay: false });
+	  }
+	  
+	  async function SDKBetInx(json) {
+		  // Play game
+		  console.log('call sdk play', json)
+		  const obj = JSON.parse(json);
+		  sdk.send('playStart', obj);
+		  sdk.send('playCycleStart', obj)
+		  playResponse = await sdk.play(obj);
+		  sdk.send('playEnd', playResponse)
+		  console.log('play response', playResponse)
+		  myGameInstance.SendMessage('RouletteGameManager', 'BetFinished', JSON.stringify(playResponse));
+	  }
+
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/Roulette.loader.js?5";
+      var config = {
+        dataUrl: buildUrl + "/Roulette.data.gz?5",
+        frameworkUrl: buildUrl + "/Roulette.framework.js.gz?5",
+        codeUrl: buildUrl + "/Roulette.wasm.gz?5",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Humansoft",
+        productName: "Roulette",
+        productVersion: "1.0",
+        showBanner: unityShowBanner,
+      };
+
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+        container.className = "unity-mobile";
+        canvas.className = "unity-mobile";
+      } else {
+        canvas.style.width = "1440px";
+        canvas.style.height = "810px";
+      }
+      loadingBar.style.display = "block";
+
+/*
+		function resize()
+		{
+			var heights = window.innerHeight;
+			document.getElementById("gameContainer").style.height = heights + "px";
+		}
+	
+		window.onresize = function() {
+			resize();
+		};
+*/
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+		sdk.send('loadStart');
+        createUnityInstance(canvas, config, (progress) => {
+			sdk.send('loadProgress', { progress: Math.ceil((progress * 100)) });
+              }).then((unityInstance) => {
+				  sdk.send('loadProgress', { progress: 100 });
+				  sdk.send('loadEnd');
+				  myGameInstance = unityInstance;
+				  setTimeout('loadingBar.style.display = "none";', 2000);
+				  fullscreenButton.onclick = () => {
+                  unityInstance.SetFullscreen(1);
+                };
+              }).catch((message) => {
+                alert(message);
+              });
+            };
+
+      document.body.appendChild(script);
+	  
+	  window.addEventListener('load', resizePage, false);
+	  window.addEventListener('resize', resizePage, false);
+	  function resizePage()
+	  {  
+	  	canvas.style.width = window.innerWidth + 'px';
+	 	canvas.style.height = window.innerHeight + 'px';  
+	  }
+
+    </script>
+  </body>
+</html>

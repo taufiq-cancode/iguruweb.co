@@ -22,57 +22,81 @@
         <div id="examples" class="container py-2" style="margin-top: 50px">
             <div class="row mb-5 pb-3">
                             
-                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
-                    <div class="card">
-                        <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
-                        <div class="card-body">
-                            <h4 class="card-title mb-1 text-4 font-weight-bold">Alligator</h4>
-                            <a href="/" class="read-more text-color-primary font-weight-semibold text-2">Get started <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
+                    <a href="{{ asset('games/Alligator/index.html') }}" >
+                        <div class="card">
+                            <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
+                            <div class="card-body">
+                                <h4 class="card-title mb-1 text-4 font-weight-bold">Alligator</h4>
+                                <a href="{{ asset('games/Alligator/index.html') }}" class="read-more text-color-primary font-weight-semibold text-2">Get started <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
-                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
-                    <div class="card">
-                        <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
-                        <div class="card-body">
-                            <h4 class="card-title mb-1 text-4 font-weight-bold">Pharaoh</h4>
-                            <a href="/" class="read-more text-color-primary font-weight-semibold text-2">Get started <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
+                    <a href="{{ asset('games/Pharaoh/index.html') }}" >
+                        <div class="card">
+                            <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
+                            <div class="card-body">
+                                <h4 class="card-title mb-1 text-4 font-weight-bold">Pharaoh</h4>
+                                <a href="{{ asset('games/Pharaoh/index.html') }}" class="read-more text-color-primary font-weight-semibold text-2">Get started <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
-                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
-                    <div class="card">
-                        <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
-                        <div class="card-body">
-                            <h4 class="card-title mb-1 text-4 font-weight-bold">Himalaya</h4>
-                            <a href="/" class="read-more text-color-primary font-weight-semibold text-2">Get started <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
+                    <a href="{{ asset('games/Himalaya/index.html') }}" >
+                        <div class="card">
+                            <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
+                            <div class="card-body">
+                                <h4 class="card-title mb-1 text-4 font-weight-bold">Himalaya</h4>
+                                <a href="{{ asset('games/Himalaya/index.html') }}" class="read-more text-color-primary font-weight-semibold text-2">Get started <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                     
-                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
-                    <div class="card">
-                        <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
-                        <div class="card-body">
-                            <h4 class="card-title mb-1 text-4 font-weight-bold">Vampire</h4>
-                            <a href="/" class="read-more text-color-primary font-weight-semibold text-2">Get started <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
 
             <div class="row mb-5 pb-3">
                             
-                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
-                    <div class="card">
-                        <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
-                        <div class="card-body">
-                            <h4 class="card-title mb-1 text-4 font-weight-bold">Alice in the Wonderland</h4>
-                            <a href="/" class="read-more text-color-primary font-weight-semibold text-2">Get started <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
+                    <a href="{{ asset('games/AliceInWonderland/index.html') }}" >
+                        <div class="card">
+                            <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
+                            <div class="card-body">
+                                <h4 class="card-title mb-1 text-4 font-weight-bold">Alice in the Wonderland</h4>
+                                <a href="{{ asset('games/AliceInWonderland/index.html') }}" class="read-more text-color-primary font-weight-semibold text-2">Get started <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
+                            </div>
                         </div>
-                    </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
+                    <a href="{{ asset('games/TombsOfVampires/index.html') }}" >
+                        <div class="card">
+                            <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
+                            <div class="card-body">
+                                <h4 class="card-title mb-1 text-4 font-weight-bold">Vampire</h4>
+                                <a href="{{ asset('games/TombsOfVampires/index.html') }}" class="read-more text-color-primary font-weight-semibold text-2">Get started <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
+                    <a href="{{ asset('games/Roulette_Test/index.html') }}" >
+                        <div class="card">
+                            <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
+                            <div class="card-body">
+                                <h4 class="card-title mb-1 text-4 font-weight-bold">Roulette</h4>
+                                <a href="{{ asset('games/Roulette_Test/index.html') }}" class="read-more text-color-primary font-weight-semibold text-2">Get started <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
+                            </div>
+                        </div>
+                    </a>
                 </div>
 
             </div>

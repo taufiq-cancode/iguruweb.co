@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="TemplateData/style.css">
+    <title>Casino Palace</title>
+  </head>
+	<script src="Build/UnityLoader.js"></script>
+	<!--script type="text/javascript" src="https://games.test.bspot.com/sdk/bspot-sdk-current.min.js"></script-->
+	<script>
+	var options = {
+	  authenticated: function(token) {
+		var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebGL.json", {onProgress: UnityProgress});
+		function UnityProgress(gameInstance, progress) {
+			if (!gameInstance.Module) {
+				return;
+			}
+			const loader = document.querySelector("#loader");
+			if (progress === 1 && !gameInstance.removeTimeout) {
+				gameInstance.removeTimeout = setTimeout(function() {
+						loader.style.display = "none";
+				}, 2000);
+			}
+		}
+		UnityLoader.BSToken = token;
+		UnityLoader.BSErrorMessage = "ErrorTest";
+	  },
+	  unauthenticated: function() {
+		bs.login();
+	  },
+	  balancesUpdated: function(balances) {
+		// ... Do something when balances are updated.
+	  },
+	  wagered: function(balances) {
+		// ... Do something after a wager has been placed.
+	  },
+	  activeTokensUpdated: function(tokens) {
+		// ... Do something when tokens have been played.
+	  },
+	  tokensReserved: function(tokens) {
+		// ... Do something when tokens have been played.
+	  },
+	  tokenUpdated: function(token) {
+		// ... Do something when a requested token has been returned.
+	  },
+	  tokenRevealed: function(balances) {
+		// ... Do something when a token has been revealed.
+	  },
+	  tokenExtended: function(token) {
+		// ... Do something when a token has been extended.
+	  },
+	  errored: function(errorMessage) {
+		UnityLoader.BSErrorMessage = errorMessage;
+	  }
+	};
+	
+	//var bs = new bspot.Api(options);
+//	bs.initialize();
+
+	var gameInstance = UnityLoader.instantiate("gameContainer", "Build/WebGL.json", {onProgress: UnityProgress});
+		function UnityProgress(gameInstance, progress) {
+			if (!gameInstance.Module) {
+				return;
+			}
+			const loader = document.querySelector("#loader");
+			if (progress === 1 && !gameInstance.removeTimeout) {
+				gameInstance.removeTimeout = setTimeout(function() {
+						loader.style.display = "none";
+				}, 2000);
+			}
+		}
+		UnityLoader.BSToken = "";
+		UnityLoader.BSErrorMessage = "ErrorTest";
+	
+	
+	function resize()
+	{
+		var heights = window.innerHeight;
+		if(window.innerWidth / window.innerHeight <= 10 / 7)
+		{
+			heights = window.innerWidth * 0.625;
+		}
+		document.getElementById("gameContainer").style.height = heights + "px";
+	}
+	window.onresize = function() {
+		resize();
+	};
+  </script>
+	<body>
+	<div class="gameFrame">
+	<div id="gameContainer"></div>
+		<div id="loader">
+		  <img class="logo" src="TemplateData/logo.png">
+		  <div class="spinner"></div>
+		</div>
+	</div>
+	</body>
+</html>
+

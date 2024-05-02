@@ -1,0 +1,133 @@
+/*
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100vh;
+  min-height: -moz-available;
+  min-height: -webkit-fill-available;
+  min-height: fill-available;
+} 
+*/
+
+html {
+  box-sizing: border-box;
+  background: #000;
+}
+
+body {
+  background: #23061d;
+  background: linear-gradient(to right bottom, #1b0516 0%, #23061d 100%);
+  font-size: 0;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+  user-select: none;
+  width: 100%;
+  zoom: 1;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+//  Disable pinch zoom as well as double tap zoom. It works on all touch screens
+//  It is the only reasonably way to disable them in iOS since meta user-scalable=no does not work
+
+  touch-action: pan-x pan-y;
+}
+
+
+.gameFrame { width: 100%; height: 100%; position: absolute; }
+#gameContainer { width: 100%; height: 100%; display: inline-block; bottom: 0; position: fixed; }
+
+
+
+
+.logo {
+	display: block;
+	max-width: 100vw;
+	max-height: 70vh;
+}
+
+.progress {
+	margin: 1.5em;
+	border: 1px solid white;
+	width: 50vw;
+	display: none;
+}
+.progress .full {
+	margin: 2px;
+	background: white;
+	height: 1em;
+	transform-origin: top left;
+}
+
+#loader {
+	background: #231F20;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.spinner,
+.spinner:after {
+	border-radius: 50%;
+	width: 5em;
+	height: 5em;
+}
+
+.spinner {
+	font-size: 10px;
+	text-indent: -9999em;
+	border-top: 20px solid rgba(255, 255, 255, 0.2);
+	border-right: 20px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 20px solid rgba(255, 255, 255, 0.2);
+	border-left: 20px solid #f1ef87;
+	transform: translateZ(0);
+	animation: spinner-spin 1.1s infinite linear;
+
+        position: absolute;
+        top: -120px;
+        left: -120px;
+	margin-left: 50%;
+	margin-top: 50%;
+	width: 200px;
+	height: 200px;
+}
+
+@keyframes spinner-spin {
+	0% {
+	  transform: rotate(0deg);
+	}
+	100% {
+	  transform: rotate(360deg);
+	}
+}
+
+.rotate {
+  animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+    .parent-img{
+        position: relative;
+    }
+    .parent-img-responsive{
+    	width:200px;
+    	height:200px;	
+    }
+}

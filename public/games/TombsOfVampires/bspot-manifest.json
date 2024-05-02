@@ -1,0 +1,24 @@
+{
+  "domain": "https://sb.bspot.com",
+  "name": "Alice in Wonderland for html5",
+  "apiKey": "1d1c729f7a397d03db530eadae45a5e785687987e4faadea3228d34539e0468a",
+  "version": "2.2.1",
+  "urls": {
+    "redirect": "https://games.sb.bspot.com/humansoft/aliceinwonderland/",
+    "oauth": "/access/oauth/authorize",
+    "wager": "/wagers",
+    "balance": "/api/v1.3/account",
+    "token": "/api/v1.3/token/",
+    "play": "/api/v1.3/token/start_play",
+    "reveal": "/api/v1.3/token/reveal",
+    "session": "/api/v1.3/session",
+    "gameplay": "/api/v1.3/gameplay_events",
+    "cancel": "/api/v1.3/token/cancel_as_unplayed",
+    "logout": "/logout",
+    "deposit": "/funding/instruments",
+    "signup": "/users/new",
+    "cashAccount": "/adw_applications/new",
+    "accountStatus": "/mobile/api/v2/adw_applications/status"
+  },
+  "legacyGameId": 228
+}
