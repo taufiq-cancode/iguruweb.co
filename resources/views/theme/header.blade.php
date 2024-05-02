@@ -78,6 +78,11 @@
                                 <i class="fas fa-bars"></i>
                             </button>
                         </div>
+                        <div class="header-nav-features header-nav-features-light header-nav-features-no-border header-nav-features-lg-show-border order-1 order-lg-2">										
+                            <div class="header-nav-feature header-nav-features-search d-inline-flex">											
+                                <a href="https://www.linkedin.com/company/iguru-web-retail-solutions-limited/" target="_blank" class="text-decoration-none" data-focus="headerSearch" aria-label="Search"><i class="fab fa-linkedin-in header-nav-top-icon"></i></a>																			
+                            </div>									
+                        </div>
                     </div>
                 </div>
             </div>
