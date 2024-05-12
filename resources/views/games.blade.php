@@ -1,6 +1,12 @@
 @extends('theme.master')
 @section('content')
 
+<style>
+    ul {
+        padding-left: 17px;
+    }
+</style>
+
     <div role="main" class="main">
 
         <section class="page-header page-header-modern page-header-md overlay overlay-show overlay-op-7" style="background-image: url(img/bg2.jpg); background-size: cover; background-position: center;">
@@ -21,84 +27,178 @@
     
         <div id="examples" class="container py-2" style="margin-top: 50px">
             <div class="row mb-5 pb-3">
-                            
                 <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
-                    <a href="{{ asset('games/Alligator/index.html') }}" >
-                        <div class="card">
+                    <div class="card">
+                        <a href="{{ asset('games/Alligator/index.html') }}" >
                             <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
-                            <div class="card-body">
-                                <h4 class="card-title mb-1 text-4 font-weight-bold">Alligator</h4>
-                                <a href="{{ asset('games/Alligator/index.html') }}" class="read-more text-color-primary font-weight-semibold text-2">Get started <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
-                            </div>
+                        </a>
+                        <div class="card-body">
+                            <h4 class="card-title mb-1 text-4 font-weight-bold">
+                                <a href="{{ asset('games/Alligator/index.html') }}" >Alligator Chomp</a>
+                            </h4>
+                            <p>Sometimes eyes will open and close in the water and the surface of the water moves. With higher winnings, alligators show up from the bushes near the water and run into it. In the water there may be wrecks of human vehicles.</p>
+                            <p><b>Animations:</b> Sandstorm and Raising Sun</p>
+                            <ul>
+                                <li><b>Rows: 4</b></li>
+                                <li><b>Reels: 5</b></li>
+                                <li><b>Paylines: 15</b></li>
+                            </ul>
+                            <ul>
+                                <li>Free Spins</li>
+                                <li>Scatter</li>
+                                <li>Wild</li>
+                                <li>Anticipation</li>
+                                <li>Jackpot</li>
+                                <li>Friend jackpot in multiplayer mode</li>
+                            </ul>
+                            <a href="{{ asset('games/Alligator/index.html') }}" class="read-more text-color-primary font-weight-semibold text-2">View Game <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
                         </div>
-                    </a>
+                    </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
-                    <a href="{{ asset('games/Pharaoh/index.html') }}" >
-                        <div class="card">
+                    <div class="card">
+                        <a href="{{ asset('games/Pharaoh/index.html') }}" >
                             <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
-                            <div class="card-body">
-                                <h4 class="card-title mb-1 text-4 font-weight-bold">Pharaoh</h4>
-                                <a href="{{ asset('games/Pharaoh/index.html') }}" class="read-more text-color-primary font-weight-semibold text-2">Get started <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
-                            </div>
+                        </a>
+                        <div class="card-body">
+                            <h4 class="card-title mb-1 text-4 font-weight-bold">
+                                <a href="{{ asset('games/Pharaoh/index.html') }}" >Pharoah</a>
+                            </h4>
+                            <p>There will be a pyramid in the background and when the player gets higher winnings the background moves into the chamber of the Pharaoh, where treasures lie. The setting could change when the player reaches a higher multiplier. </p>
+                            <p><b>Animations:</b> Sandstorm and Raising Sun</p>
+                            <ul>
+                                <li><b>Rows: 4</b></li>
+                                <li><b>Reels: 5</b></li>
+                                <li><b>Paylines: 15</b></li>
+                            </ul>
+                            <ul>
+                                <li>Free Spins</li>
+                                <li>Scatter</li>
+                                <li>Wild</li>
+                                <li>Anticipation</li>
+                                <li>Jackpot</li>
+                                <li>Friend jackpot in multiplayer mode</li>
+                            </ul>
+                            <a href="{{ asset('games/Pharaoh/index.html') }}" class="read-more text-color-primary font-weight-semibold text-2">View Game <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
                         </div>
-                    </a>
+                    </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
-                    <a href="{{ asset('games/Himalaya/index.html') }}" >
-                        <div class="card">
+                    <div class="card">
+                        <a href="{{ asset('games/Himalaya/index.html') }}" >
                             <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
-                            <div class="card-body">
-                                <h4 class="card-title mb-1 text-4 font-weight-bold">Himalaya</h4>
-                                <a href="{{ asset('games/Himalaya/index.html') }}" class="read-more text-color-primary font-weight-semibold text-2">Get started <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
-                            </div>
+                        </a>
+                        <div class="card-body">
+                            <h4 class="card-title mb-1 text-4 font-weight-bold">
+                                <a href="{{ asset('games/Himalaya/index.html') }}" >Mysteries of Himalayas</a>
+                            </h4>
+                            <p>The background will be a giant mountain with snow, when the player gets high win, the mountaintop will get closer and snow will fall with wind blowing.</p>
+                            <p>There are many mystical items, in the depth of the cold caves in the high mountains. Also there are some wild animals.</p>
+                            <p><b>Frozen slots:</b> If you are not playing continuously, some columns can freeze, and stop.</p>
+                            <ul>
+                                <li><b>Rows: 5</b></li>
+                                <li><b>Reels: 4</b></li>
+                                <li><b>Paylines: 15</b></li>
+                            </ul>
+                            <ul>
+                                <li>Free Spins</li>
+                                <li>Scatter</li>
+                                <li>Wild</li>
+                                <li>Anticipation</li>
+                                <li>Jackpot</li>
+                                <li>Friend jackpot in multiplayer mode</li>
+                            </ul>
+                            <a href="{{ asset('games/Himalaya/index.html') }}" class="read-more text-color-primary font-weight-semibold text-2">View Game <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
                         </div>
-                    </a>
+                    </div>
                 </div>
-                    
-                
             </div>
 
             <div class="row mb-5 pb-3">
-                            
                 <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
-                    <a href="{{ asset('games/AliceInWonderland/index.html') }}" >
-                        <div class="card">
+                    <div class="card">
+                        <a href="#" >
                             <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
-                            <div class="card-body">
-                                <h4 class="card-title mb-1 text-4 font-weight-bold">Alice in the Wonderland</h4>
-                                <a href="{{ asset('games/AliceInWonderland/index.html') }}" class="read-more text-color-primary font-weight-semibold text-2">Get started <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
-                            </div>
+                        </a>
+                        <div class="card-body">
+                            <h4 class="card-title mb-1 text-4 font-weight-bold">
+                                <a href="#" >Blood Moon</a>
+                            </h4>
+                            <p>when bonus has been filled up. Scene transform into boold moon appearance, and pay more. No WILD in blood moon.</p>
+                            <ul>
+                                <li>Free Spins</li>
+                                <li>Scatter</li>
+                                <li>Wild</li>
+                                <li>Anticipation</li>
+                                <li>Jackpot</li>
+                                <li>Friend jackpot in multiplayer mode</li>
+                            </ul>
+                            <a href="#" class="read-more text-color-primary font-weight-semibold text-2">View Game <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
                         </div>
-                    </a>
+                    </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
-                    <a href="{{ asset('games/TombsOfVampires/index.html') }}" >
-                        <div class="card">
+                    <div class="card">
+                        <a href="{{ asset('games/AliceInWonderland/index.html') }}" >
                             <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
-                            <div class="card-body">
-                                <h4 class="card-title mb-1 text-4 font-weight-bold">Vampire</h4>
-                                <a href="{{ asset('games/TombsOfVampires/index.html') }}" class="read-more text-color-primary font-weight-semibold text-2">Get started <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
-                            </div>
+                        </a>
+                        <div class="card-body">
+                            <h4 class="card-title mb-1 text-4 font-weight-bold">
+                                <a href="{{ asset('games/AliceInWonderland/index.html') }}" >Alice in the Wonderland</a>
+                            </h4>
+                            <ul>
+                                <li><b>Rows: 4</b></li>
+                                <li><b>Reels: 5</b></li>
+                                <li><b>Paylines: 15</b></li>
+                            </ul>
+                            <ul>
+                                <li>Free Spins</li>
+                                <li>Scatter</li>
+                                <li>Wild</li>
+                                <li>Anticipation</li>
+                                <li>Jackpot</li>
+                                <li>Friend jackpot in multiplayer mode</li>
+                            </ul>
+                            <a href="{{ asset('games/AliceInWonderland/index.html') }}" class="read-more text-color-primary font-weight-semibold text-2">View Game <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
                         </div>
-                    </a>
+                    </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
-                    <a href="{{ asset('games/Roulette_Test/index.html') }}" >
-                        <div class="card">
+                    <div class="card">
+                        <a href="{{ asset('games/TombsOfVampires/index.html') }}" >
                             <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
-                            <div class="card-body">
+                        </a>
+                        <div class="card-body">
+                            <h4 class="card-title mb-1 text-4 font-weight-bold">
+                                <a href="{{ asset('games/TombsOfVampires/index.html') }}" >Tombs of Vampires</a>
+                            </h4>
+                            <ul>
+                                <li><b>Rows: 3</b></li>
+                                <li><b>Reels: 3</b></li>
+                                <li><b>Paylines: 3</b></li>
+                            </ul>
+                            <a href="{{ asset('games/TombsOfVampires/index.html') }}" class="read-more text-color-primary font-weight-semibold text-2">View Game <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-5 pb-3">
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
+                    <a href="https://iguruweb.co/games/Roulette_Test/index.html">
+                        </a><div class="card"><a href="https://iguruweb.co/games/Roulette_Test/index.html">
+                            <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
+                            </a><div class="card-body"><a href="https://iguruweb.co/games/Roulette_Test/index.html">
                                 <h4 class="card-title mb-1 text-4 font-weight-bold">Roulette</h4>
-                                <a href="{{ asset('games/Roulette_Test/index.html') }}" class="read-more text-color-primary font-weight-semibold text-2">Get started <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
+                                </a><a href="https://iguruweb.co/games/Roulette_Test/index.html" class="read-more text-color-primary font-weight-semibold text-2">View Game <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
                             </div>
                         </div>
-                    </a>
+                    
                 </div>
-
             </div>
         </div>
 
