@@ -64,6 +64,38 @@
                 </div>
             </div>
         </div>
+
+        <div class="row team-list sort-destination" data-sort-id="team" data-filter="*" style="position: relative; height: 400px;">
+            <div class="col-12 col-sm-6 col-lg-4 isotope-item leadership" >
+                <span class="thumb-info thumb-info-hide-wrapper-bg mb-4">
+                    <span class="thumb-info-wrapper">
+                        <a>
+                            <img src="img/team/taofeek.jpg" class="img-fluid" alt="">
+                            <span class="thumb-info-title">
+                                <span class="thumb-info-inner">Taofeek Adekunle</span>
+                                <span class="thumb-info-type">Technical/Sales Person</span>
+                            </span>
+                        </a>
+                    </span>
+                    <span class="thumb-info-caption">
+                        <span class="thumb-info-social-icons mb-4">
+                            <a href="https://www.linkedin.com/in/taofeek-adekunle-ba2233ba/"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a>
+                        </span>
+                    </span>
+                </span>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-8 isotope-item leadership" >
+                <div class="row justify-content-left mt-top-team">
+                    <div class="col-md-12 col-lg-12 d-flex align-items-left justify-content-left justify-content-lg-start line-height-9">
+                        <p class="text-color-dark mb-0"> 
+                            Taofeek Adekunle is a dynamic professional at iGuruWeb, where he seamlessly bridges the gap between technology and business. With a passion for both software development and sales. 
+                            Taofeek is a skilled developer who crafts innovative solutions for iGuruWeb’s gaming platforms. From optimizing backend APIs or creating captivating frontend interfaces, Taofeek's code ensures seamless user experiences.
+                            By connecting iGuruWeb with the right stakeholders, Taofeek ensures the company’s growth trajectory remains robust.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
