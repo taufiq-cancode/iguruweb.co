@@ -29,12 +29,12 @@
             <div class="row mb-5 pb-3">
                 <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
                     <div class="card">
-                        <a href="{{ asset('games/Alligator/index.html') }}" >
+                        <a href="{{ asset('games/Alligator/index.html') }}" target="_blank">
                             <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
                         </a>
                         <div class="card-body">
                             <h4 class="card-title mb-1 text-4 font-weight-bold">
-                                <a href="{{ asset('games/Alligator/index.html') }}" >Alligator Chomp</a>
+                                <a href="{{ asset('games/Alligator/index.html') }}" target="_blank">Alligator Chomp</a>
                             </h4>
                             <p>Sometimes eyes will open and close in the water and the surface of the water moves. With higher winnings, alligators show up from the bushes near the water and run into it. In the water there may be wrecks of human vehicles.</p>
                             <p><b>Animations:</b> Sandstorm and Raising Sun</p>
@@ -51,19 +51,19 @@
                                 <li>Jackpot</li>
                                 <li>Friend jackpot in multiplayer mode</li>
                             </ul>
-                            <a href="{{ asset('games/Alligator/index.html') }}" class="read-more text-color-primary font-weight-semibold text-2">View Game <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
+                            <a href="{{ asset('games/Alligator/index.html') }}" target="_blank" class="read-more text-color-primary font-weight-semibold text-2">View Game <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
                     <div class="card">
-                        <a href="{{ asset('games/Pharaoh/index.html') }}" >
-                            <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
+                        <a href="{{ asset('games/Pharaoh/index.html') }}" target="_blank">
+                            <img class="card-img-top" src="{{ asset('img/games-banner/Pharao_banner.jpg') }}" alt="Card Image">
                         </a>
                         <div class="card-body">
                             <h4 class="card-title mb-1 text-4 font-weight-bold">
-                                <a href="{{ asset('games/Pharaoh/index.html') }}" >Pharoah</a>
+                                <a href="{{ asset('games/Pharaoh/index.html') }}" target="_blank">Pharoah</a>
                             </h4>
                             <p>There will be a pyramid in the background and when the player gets higher winnings the background moves into the chamber of the Pharaoh, where treasures lie. The setting could change when the player reaches a higher multiplier. </p>
                             <p><b>Animations:</b> Sandstorm and Raising Sun</p>
@@ -80,19 +80,19 @@
                                 <li>Jackpot</li>
                                 <li>Friend jackpot in multiplayer mode</li>
                             </ul>
-                            <a href="{{ asset('games/Pharaoh/index.html') }}" class="read-more text-color-primary font-weight-semibold text-2">View Game <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
+                            <a href="{{ asset('games/Pharaoh/index.html') }}" target="_blank" class="read-more text-color-primary font-weight-semibold text-2">View Game <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
                     <div class="card">
-                        <a href="{{ asset('games/Himalaya/index.html') }}" >
-                            <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
+                        <a href="{{ asset('games/Himalaya/index.html') }}" target="_blank">
+                            <img class="card-img-top" src="{{ asset('img/games-banner/Himalayas_banner.jpg') }}" alt="Card Image">
                         </a>
                         <div class="card-body">
                             <h4 class="card-title mb-1 text-4 font-weight-bold">
-                                <a href="{{ asset('games/Himalaya/index.html') }}" >Mysteries of Himalayas</a>
+                                <a href="{{ asset('games/Himalaya/index.html') }}" target="_blank">Mysteries of Himalayas</a>
                             </h4>
                             <p>The background will be a giant mountain with snow, when the player gets high win, the mountaintop will get closer and snow will fall with wind blowing.</p>
                             <p>There are many mystical items, in the depth of the cold caves in the high mountains. Also there are some wild animals.</p>
@@ -110,7 +110,7 @@
                                 <li>Jackpot</li>
                                 <li>Friend jackpot in multiplayer mode</li>
                             </ul>
-                            <a href="{{ asset('games/Himalaya/index.html') }}" class="read-more text-color-primary font-weight-semibold text-2">View Game <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
+                            <a href="{{ asset('games/Himalaya/index.html') }}" target="_blank" class="read-more text-color-primary font-weight-semibold text-2">View Game <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -142,12 +142,12 @@
 
                 <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
                     <div class="card">
-                        <a href="{{ asset('games/AliceInWonderland/index.html') }}" >
-                            <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
+                        <a href="{{ asset('games/AliceInWonderland/index.html') }}" target="_blank">
+                            <img class="card-img-top" src="{{ asset('img/games-banner/AliceinWonderland_banner.jpg') }}" alt="Card Image">
                         </a>
                         <div class="card-body">
                             <h4 class="card-title mb-1 text-4 font-weight-bold">
-                                <a href="{{ asset('games/AliceInWonderland/index.html') }}" >Alice in the Wonderland</a>
+                                <a href="{{ asset('games/AliceInWonderland/index.html') }}" target="_blank">Alice in the Wonderland</a>
                             </h4>
                             <ul>
                                 <li><b>Rows: 4</b></li>
@@ -162,26 +162,26 @@
                                 <li>Jackpot</li>
                                 <li>Friend jackpot in multiplayer mode</li>
                             </ul>
-                            <a href="{{ asset('games/AliceInWonderland/index.html') }}" class="read-more text-color-primary font-weight-semibold text-2">View Game <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
+                            <a href="{{ asset('games/AliceInWonderland/index.html') }}" target="_blank" class="read-more text-color-primary font-weight-semibold text-2">View Game <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
                     <div class="card">
-                        <a href="{{ asset('games/TombsOfVampires/index.html') }}" >
-                            <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
+                        <a href="{{ asset('games/TombsOfVampires/index.html') }}" target="_blank">
+                            <img class="card-img-top" src="{{ asset('img/games-banner/TombOfVampires_banner.jpg') }}" alt="Card Image">
                         </a>
                         <div class="card-body">
                             <h4 class="card-title mb-1 text-4 font-weight-bold">
-                                <a href="{{ asset('games/TombsOfVampires/index.html') }}" >Tombs of Vampires</a>
+                                <a href="{{ asset('games/TombsOfVampires/index.html') }}" target="_blank">Tombs of Vampires</a>
                             </h4>
                             <ul>
                                 <li><b>Rows: 3</b></li>
                                 <li><b>Reels: 3</b></li>
                                 <li><b>Paylines: 3</b></li>
                             </ul>
-                            <a href="{{ asset('games/TombsOfVampires/index.html') }}" class="read-more text-color-primary font-weight-semibold text-2">View Game <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
+                            <a href="{{ asset('games/TombsOfVampires/index.html') }}" target="_blank" class="read-more text-color-primary font-weight-semibold text-2">View Game <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
                         </div>
                     </div>
                 </div>
@@ -189,15 +189,15 @@
 
             <div class="row mb-5 pb-3">
                 <div class="col-md-6 col-lg-4 mb-5 mb-lg-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200" style="animation-delay: 200ms;">
-                    <a href="https://iguruweb.co/games/Roulette_Test/index.html">
-                        </a><div class="card"><a href="https://iguruweb.co/games/Roulette_Test/index.html">
-                            <img class="card-img-top" src="img/bg2.jpg" alt="Card Image">
-                            </a><div class="card-body"><a href="https://iguruweb.co/games/Roulette_Test/index.html">
-                                <h4 class="card-title mb-1 text-4 font-weight-bold">Roulette</h4>
-                                </a><a href="https://iguruweb.co/games/Roulette_Test/index.html" class="read-more text-color-primary font-weight-semibold text-2">View Game <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
-                            </div>
+                    <div class="card"><a href="https://iguruweb.co/games/Roulette_Test/index.html">
+                        <a href="https://iguruweb.co/games/Roulette_Test/index.html" target="_blank">
+                            <img class="card-img-top" src="{{ asset('img/games-banner/roulette_banner.jpg') }}" alt="Card Image">
+                        </a>
+                        </a><div class="card-body"><a href="https://iguruweb.co/games/Roulette_Test/index.html">
+                            <h4 class="card-title mb-1 text-4 font-weight-bold">Roulette</h4>
+                            </a><a href="https://iguruweb.co/games/Roulette_Test/index.html" class="read-more text-color-primary font-weight-semibold text-2">View Game <i class="fas fa-angle-right position-relative top-1 ms-1"></i></a>
                         </div>
-                    
+                    </div>
                 </div>
             </div>
         </div>
